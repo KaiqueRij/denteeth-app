@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* 
+  Cor primária: #2DA0ED
+  Cor secundária: #4DB7FF
+  Preto: #45494D
+  Branco: #FBFBFB
+*/
+
+body {
+  color: #FBFBFB;
+  font-family: "Sansation Light", "Trebuchet MS", Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: "Sansation Light";
+  src: url("assets/fonts/SansationLight.woff");
+}
