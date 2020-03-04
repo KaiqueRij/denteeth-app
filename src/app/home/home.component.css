@@ -1,0 +1,97 @@
+#icon-area {
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  left: -200px;
+  position: absolute;
+  transform: skewX(-30deg);
+  background-color: #FBFBFB;
+  box-shadow: 6px 0 6px rgba(0, 0, 0, .2);
+}
+
+#home {
+  margin: 0;
+  padding: 0;
+  min-width: 360px;
+}
+
+/* Customização da imagem e o blur */
+#home, #picture, .blur, #content, .row {
+  height: 100%;
+}
+
+#picture {
+  background-size: cover;
+  background-image: url("../../assets/images/dentist-home-631x1088.jpg");
+}
+
+.blur {
+  background-color: rgba(45, 160, 237, .6);
+}
+
+#image-copyright {
+  font-size: 14px;
+  position: absolute;
+  left: 75%;
+}
+
+/* Customização do conteúdo */
+#content {
+  height: 100%;
+  text-align: center;
+}
+
+#content input, h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+h6 {
+  color: #45494C;
+}
+
+#content input {
+  height: 40px;
+  width: 300px;
+  min-width: 300px;
+  margin: 3rem 0 3rem 0;
+  font-size: 20px;
+  color: #2DA0ED;
+  border-radius: 125px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, .3);
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {  
+}
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {  
+  #picture {
+    background-size: cover;
+    background-image: url("../../assets/images/dentist-home-640x480.jpg");
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #picture {
+    background-size: cover;
+    background-image: url("../../assets/images/dentist-home-960x720.jpg");
+  }
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #picture {
+    background-size: cover;
+    background-image: url("../../assets/images/dentist-home-960x720.jpg");
+  }
+}
+
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #picture {
+    background-size: cover;
+    background-image: url("../../assets/images/dentist-home-1451x758-crop.jpg");
+  }
+}
