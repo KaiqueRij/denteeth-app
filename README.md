@@ -1,6 +1,13 @@
-# DenteethApp
+# Denteeth
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
+
+## Páginas
+### Página de início do desktop
+![Home Desktop](src/assets/images/illustrations/responsive-page.png)
+
+### Página de início do mobile
+![Home Desktop](src/assets/images/illustrations/mobile-responsive-page.png)
 
 ## Development server
 
